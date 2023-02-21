@@ -1,55 +1,130 @@
+
+<link rel="stylesheet" href="css/style.css">  
+  
 # TP1 – Carrousel - Grille d’auto-correction
-sur 10, vaut pour 5% de la session
-
+ma note = __[ XX ]__ sur 10, vaut pour 5% de la session  
+  
 ## Critères
-1. Balisage sémantique et structurel [2 points]
-__Sous-critère 1__
-- Le code HTML a été validé à l’aide du validateur du w3c
-Déposer dans le dossier image une capture-écran du résultat de validation initiale.
-[Validation initiale](images/capture1.png)
-- Le code HTML a été corrigé à l’aide du validateur du w3c
-Déposer dans le dossier image une capture-écran du résultat de validation initiale.
-[Validation finale](images/capture1.png)
+## 1. Balisage sémantique et structurel    
+[2 points] 
 
-__Sous-critère 2__
-Il n'y a pas d'outil pour vérifier si le choix des balises et des attributs est bien fait...  N'hésitez pas à vérifier dès que vous avez un doute et essayez d'avoir toujours des doutes haha.
+__Sous-critère 1__ [ + 0.5 ] si réussi ma note = __[ X.X ]__  
+- Le code HTML a été validé à l’aide du validateur du w3c   
+Déposer dans le dossier images une capture-écran du résultat de validation initiale.    
+[Validation initiale](images/capture1.png)    
 
-2. Utilisation adéquate et créative de Google Fonts	1
+__Sous-critère 2__ [ + 1.5 ] si réussi ma note = __[ X.X ]__
+- Le code HTML a été corrigé puis revalider à l’aide du validateur du w3c   
+Déposer dans le dossier images une capture-écran du résultat de validation finale.  
+[Validation finale](images/capture2.png)   
+
+__Sous-critère 3__ [ + :unicorn: ]  
+- Balisage sémantique... 
+Il n'y a pas d'outil pour vérifier si le choix des balises et des attributs est bien fait...  
+N'hésitez pas à vérifier dès que vous avez un doute et... essayez d'avoir toujours des doutes :laughing:. 
 
 
-3. Styles CSS (base : typo.css, utilisation des variables, header/footer)	2  
-Sous-critère 1
-La liste des variables du fichier utilitaires.css a été modifiée et les variables
+
+## 2. Utilisation adéquate et créative de Google Fonts 
+[1 point] 
+  
+__Sous-critère 1__ [ + 0.25 ] = ma note __[ X.XX ]__  
+- Dans le dossier de départ, le dossier polices a été supprimé.    
+Les instructions @font-face ont été effacées du fichier typo.css puisque nous avons décidé d'utiliser l'API de Google Fonts. Cette API utilise un mouchard pour vérifier quel format de police (woff2, woff ou ttf) est le plus adapté à l'appareil du visiteur et elle génère une instruction @font-face pour télécharger la police. 
+
+__Sous-critère 2__ [ + 0.25 ] = ma note __[ X.XX ]__
+- Sur *Google Fonts*, un choix d'au minimum 2 polices ou 2 variantes d'une même police a été fait.  
+L'instruction `@import` pour télécharger ces polices a été ajouté au début du fichier style.css  
+
+__Sous-critère 3__ [ + 0.5 ] = ma note __[ X.XX ]__
+- Les polices s'appliquent bien.    
+Des variables dans le fichier utilitaires.css contiennent les noms des polices.  
+Dans le fichier typo.css, les valeurs de la propriété ```font-family``` utilisent les variables.  
+
+
+## 3. Styles CSS 
+__Les bases : importation correcte des fichiers normalize, utilitaires, typo et optionnellement grille.css, utilisation des variables, présence bien définie et harmonieuse d'un bandeau d'entête et d'un pied de page__   
+[2 points]  
+  
+__Sous-critère 1__ [ + 0.5 ] = ma note __[ X.XX ]__
+- La liste des variables du fichier utilitaires.css a été modifiée et les variables
 sont utilisés dans les fichiers typo et style.css
-Sous-critère 2
-Le fichier typo.css a été utilisé pour préciser par des variables 
-les polices utilisées pour les titres h1-h6 et pour le corps du document
-Sous-critère 3
-Les styles sont développés Mobile First.
+
+__Sous-critère 2__ [ + 0.25 ] = ma note __[ X.XX ]__
+- Le fichier typo.css a été utilisé pour préciser par des variables 
+les polices utilisées pour les titres h1-h6 et pour le corps du document.
+
+__Sous-critère 3__ [ + 0.25 ] = ma note __[ X.XX ]__
+- La taille des titres h1-h6 est en rem et varie selon la largeur de l'écran.
+
+__Sous-critère 4__ [ + 1 ] = ma note __[ X.XX ]__
+- Les styles sont développés Mobile First.
 Les requêtes media sont placés comme variantes tout de suite après chaque sélecteur. 
 
 
-Qualité cohérence choix des images et présence des crédits	1
+## 4. Choix des images, optimisation et présence des crédits 
+[1 point]  
 
-Stratégie d’intégration complétée	1
-Sous-critère 1
-Avoir pris le temps d’identifier les conteneurs nécessaires 
-pour définir les blocs et les rangées nécessaire à la mise en page en CSS.
-Sous-critère 2
-Avoir pris le temps d’identifier les conteneurs sémantiques utiles avant d’ajouter
-des div et des span.
+__Sous-critère 1__ [ + 0.25 ] = ma note __[ X.XX ]__
+- Il y a bien 7 images sur le même sujet. 
+
+__Sous-critère 2__ [ + 0.5 ] = ma note __[ X.XX ]__
+- Les images ont été redimensionnées et optimisées.
+Elles ont un poids de moins de 250ko.  
+
+__Sous-critère 3__ [ + 0.25 ] = ma note __[ X.XX ]__
+- Chaque image est accompagné de son crédit comportant un lien vers l'auteur et le site de la banque d'images.   
+
+## 5. Stratégie d’intégration complétée 
+[1 point]
+  
+__Sous-critère 1__  [ + 0.5 ] = ma note __[ X.XX ]__
+Avoir pris le temps d'esquisser la mise en page et figurer, tracer les conteneurs de blocs et de rangées requis pour obtenir cette mise en page.   
+[photo de la mise en page esquissée](images/mise-en-page.jpg)  
+
+__Sous-critère 2__  [ + 0.25 ] = ma note __[ X.XX ]__
+Avoir pris le temps d’identifier les conteneurs sémantiques utiles dans le HTML avant d’ajouter
+des div et des span.  
+
+__Sous-critère 3__  [ + 0.25 ] = ma note __[ X.XX ]__
+Utiliser l'inspecteur de code dans le navigateur OU le __pliage de code__ dans l'éditeur pour bien visualiser la relation parent-enfants entre les conteneur Flex et leurs items.  
 
 
-Défis (mise en page plus élaborée OU amélioration des fonctionnalités)	2 
+## 6. Défis 
+[2 points] 
+
+### Expliquer brièvement votre défi et compléter la section A ou B
+________________
+________________
+________________
+________________
+
+__A. Mise en page plus élaborée__  
 La mise en page est fluide, mono-colonne sur l’écran étroit et enrichie sur l’écran large.
+Documenter par 2 captures écrans.  
+[Écran étroit](images/capture3.png)  
+[Écran large](images/capture4.png)  
+
+__B. Amélioration des fonctionnalités__    
 Une fonctionnalité a été ajoutée au carrousel et celui-ci demeure accessible sans JavaScript.
-Commentaires explicatifs du travail effectué.
-- non réalisé (Z)
-- moyennement fière/fier du résultat (C)
-- plutôt fière/fier du résultat (B)
-- fière/fier du résultat (A)
+Documenter par 2 captures écrans.  
+[Avec JavaScript](images/capture3.png)  
+[Sans JavaScript](images/capture4.png)  
 
-7. Versionnage [1 point] 
-Avoir versionné au moins une étape préalable avant la remise finale.
+Barème:
+- non réalisé  [ + 0 ] 
+- débuté mais inachevé [ + 1 ] 
+- moyennement fière/fier du résultat [ + 1.2 ] 
+- plutôt fière/fier du résultat [ + 1.7 ] 
+- fière/fier du résultat [ + 2 ] 
 
+__= ma note [ X.XX ]__
+
+## 7. Versionnage 
+[1 point] 
+
+__Sous-critère 1__  [ + 1 ] = ma note [ X.XX ]
+- Avoir versionné au moins une étape préalable avant la remise finale.  
+- Documenter l'historique des commits par une capture écran:    
+[Historique](images/capture5.png)
 
