@@ -97,17 +97,13 @@ ________________
 ________________
 ________________
 
-__A. Mise en page plus élaborée__  
-La mise en page est fluide, mono-colonne sur l’écran étroit et enrichie sur l’écran large.
-Documenter par 2 captures écrans.  
-[Écran étroit](images/capture3.png)  
-[Écran large](images/capture4.png)  
-
-__B. Amélioration des fonctionnalités__    
-Une fonctionnalité a été ajoutée au carrousel et celui-ci demeure accessible sans JavaScript.
-Documenter par 2 captures écrans.  
-[Avec JavaScript](images/capture3.png)  
-[Sans JavaScript](images/capture4.png)  
+| A | B |
+|---|---|
+| __A. Mise en page plus élaborée__ | __B. Amélioration des fonctionnalités__ |
+| La mise en page est fluide, mono-colonne sur l’écran étroit et enrichie sur l’écran large. | Une fonctionnalité a été ajoutée au carrousel et celui-ci demeure accessible sans JavaScript. |
+| Documenter par 2 captures écrans. | Documenter par 2 captures écrans. |
+| [Écran étroit](images/capture3.png) | [Avec JavaScript](images/capture3.png) |
+| [Écran large](images/capture4.png) | [Sans JavaScript](images/capture4.png) |
 
 Barème:
 - non réalisé  [ + 0 ] 
@@ -121,13 +117,13 @@ __= ma note [ X.XX ]__
 ## 7. Versionnage 
 [1 point] 
 
-__Sous-critère 1__  [ + 1 ] = ma note [ X.XX ]
+__Sous-critère 1__  [ + 1 ] = ma note __[ X.XX ]__
 - Avoir versionné au moins une étape préalable avant la remise finale.  
 - Documenter l'historique des commits par une capture écran:    
-[Exemple d'historique à remplacer par le vôtre](images/capture5.png)
+[Historique (exemplaire) à remplacer par le vôtre](images/capture5.png)
 
 ## 8. Bonus
 [+ 0.5 point] 
 
-__Sous-critère 1__  [ + 0.5 ] = ma note [ X.XX ]
-- Avoir complété au complet cette autoévaluation.
+__Sous-critère 1__  [ + 0.5 ] = ma note __[ X.XX ]__
+- Avoir complété cette autoévaluation :muscle: :muscle: :muscle:
