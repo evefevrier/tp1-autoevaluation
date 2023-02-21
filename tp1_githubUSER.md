@@ -1,7 +1,7 @@
 
 <link rel="stylesheet" href="css/style.css">  
   
-# TP1 – Carrousel - Grille d’auto-correction
+# TP1 – Carrousel - Grille d’auto-évaluation
 ma note = __[ XX ]__ sur 10, vaut pour 5% de la session  
   
 ## Critères
@@ -47,19 +47,17 @@ __Les bases : importation correcte des fichiers normalize, utilitaires, typo et 
 [2 points]  
   
 __Sous-critère 1__ [ + 0.5 ] = ma note __[ X.XX ]__
-- La liste des variables du fichier utilitaires.css a été modifiée et les variables
+- La liste des variables du fichier __utilitaires.css__ a été modifiée et les variables
 sont utilisés dans les fichiers typo et style.css
 
-__Sous-critère 2__ [ + 0.25 ] = ma note __[ X.XX ]__
-- Le fichier typo.css a été utilisé pour préciser par des variables 
-les polices utilisées pour les titres h1-h6 et pour le corps du document.
+__Sous-critère 2__ [ + 0.5 ] = ma note __[ X.XX ]__
+- Dans le fichier __typo.css__ : 
+    - les polices utilisées pour les titres h1-h6 et pour le corps du document sont définies par des variables.
+    - la taille des titres h1-h6 est en rem et varie selon la largeur de l'écran.
 
-__Sous-critère 3__ [ + 0.25 ] = ma note __[ X.XX ]__
-- La taille des titres h1-h6 est en rem et varie selon la largeur de l'écran.
-
-__Sous-critère 4__ [ + 1 ] = ma note __[ X.XX ]__
-- Les styles sont développés Mobile First.
-Les requêtes media sont placés comme variantes tout de suite après chaque sélecteur. 
+__Sous-critère 3__ [ + 1 ] = ma note __[ X.XX ]__
+- Les styles sont développés *Mobile First* dans le fichier __style.css__.
+Les requêtes media sont placées comme variantes tout de suite après chaque sélecteur. 
 
 
 ## 4. Choix des images, optimisation et présence des crédits 
@@ -126,5 +124,10 @@ __= ma note [ X.XX ]__
 __Sous-critère 1__  [ + 1 ] = ma note [ X.XX ]
 - Avoir versionné au moins une étape préalable avant la remise finale.  
 - Documenter l'historique des commits par une capture écran:    
-[Historique](images/capture5.png)
+[Exemple d'historique à remplacer par le vôtre](images/capture5.png)
 
+## 8. Bonus
+[+ 0.5 point] 
+
+__Sous-critère 1__  [ + 0.5 ] = ma note [ X.XX ]
+- Avoir complété au complet cette autoévaluation.
