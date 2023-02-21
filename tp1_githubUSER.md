@@ -43,8 +43,8 @@ Dans le fichier typo.css, les valeurs de la propriété ```font-family``` utilis
 
 
 ## 3. Styles CSS 
-__Les bases : importation correcte des fichiers normalize, utilitaires, typo et optionnellement grille.css, utilisation des variables, présence bien définie et harmonieuse d'un bandeau d'entête et d'un pied de page__   
-[2 points]  
+__Les bases : importation correcte des fichiers normalize, utilitaires, typo et optionnellement grille.css, utilisation des variables, présence bien définie et harmonieuse d'un bandeau d'entête et d'un pied de page__      
+[2 points]     
   
 __Sous-critère 1__ [ + 0.5 ] = ma note __[ X.XX ]__
 - La liste des variables du fichier __utilitaires.css__ a été modifiée et les variables
